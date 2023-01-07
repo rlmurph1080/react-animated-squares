@@ -1,0 +1,15 @@
+.squareBG {
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.squareBG li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  transform: translateX(-50%);
+}
