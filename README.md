@@ -1,7 +1,7 @@
 # react-animated-squares
-An animated background featuring floating squares
+A customizable, animated background featuring floating squares
 
-[![react-autocomplete-input](https://github.com/yh54321/react-pokerchip/blob/main/example.png)](https://github.com/yh54321/react-pokerchip)
+[![react-animated-squares](https://github.com/yh54321/react-animated-squares/blob/main/example_img.png)](https://github.com/yh54321/react-animated-squares)
 
 Adapted from design by [Mohammad Abdul Mohaiman](https://codepen.io/mohaiman) at https://codepen.io/mohaiman/pen/MQqMyo
 
