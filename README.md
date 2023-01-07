@@ -6,7 +6,7 @@ A customizable, animated background featuring floating squares
 Adapted from design by [Mohammad Abdul Mohaiman](https://codepen.io/mohaiman) at https://codepen.io/mohaiman/pen/MQqMyo
 
 
-[![npm version](https://img.shields.io/npm/v/react-pokerchip.svg?style=flat)](https://www.npmjs.com/package/react-pokerchip)
+[![npm version](https://img.shields.io/npm/v/react-animated-squares.svg?style=flat)](https://www.npmjs.com/package/react-animated-squares)
 
 # Usage Example
 ```JavaScript
