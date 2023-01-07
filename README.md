@@ -19,7 +19,7 @@ import SquaresBG from "react-animated-squares";
 # Instructions
 To install: `npm i react-animated-squares`
 
-Place component as first child of parent element
+Place `<SquaresBG />` as first child in parent element, and place contents as subsequent elements. BG will fill any parent with a defined width and height. Parent should have CSS rule `overflow: hidden`
 
 # Props
 All props are optional and can be `undefined`.
