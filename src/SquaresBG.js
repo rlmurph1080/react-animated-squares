@@ -1,7 +1,7 @@
 /*jshint esversion: 11 */
 
 import React, { useRef, useEffect, useMemo } from 'react';
-import './App.css';
+import './SquaresBG.css';
 
 /* Utility Functions, start */
 
@@ -36,7 +36,12 @@ function SquareStyle (props) {
 function generateSquares (props) {
     const squaresArr = [];
     for (let i = 0; i < props.count; i++) {
-        squaresArr.push(<li key={i} className={`square${props.bg_id.current}`} style={new SquareStyle(props)} />);
+        // squaresArr.push(<li key={i} className={`square${props.bg_id.current}`} style={new SquareStyle(props)} />);
+        squaresArr.push(/*#__PURE__*/React.createElement("li", {
+            key: i,
+            className: `square${props.bg_id.current}`,
+            style: new SquareStyle(props)
+          }));
     }
     return squaresArr;
 }
@@ -101,9 +106,13 @@ function SquaresBG (props) {
         console.error("SquareBG speed should not be below 0!");
     }
     return (
-        <ul ref={bg} className="squareBG" style={{background: fixedProps.randomBGColor ? randomRGBA(1) : fixedProps.backgroundColor}}>
-            {squares}
-        </ul>
+        /*#__PURE__*/React.createElement("ul", {
+            ref: bg,
+            className: "squareBG",
+            style: {
+            background: fixedProps.randomBGColor ? randomRGBA(1) : fixedProps.backgroundColor
+            }
+        }, squares)
     );
 }
 
