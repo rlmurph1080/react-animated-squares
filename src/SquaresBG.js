@@ -13,7 +13,7 @@ const randomRGBA = alpha => `rgba(${randomInclusiveInt(0, 255)}, ${randomInclusi
 /* Utility Functions, end */
 
 const DEFAULTS = Object.freeze({
-    backgroundColor: "#4E54C8",
+    backgroundColor: "33FFCA",
     count: 10,
     minSize: 100,
     maxSize: 200,
