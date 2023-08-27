@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rlmurph1080/react-animated-squares.git"
+    "url": "git+https://github.com/yh54321/react-animated-squares.git"
   },
   "keywords": [
     "background",
@@ -19,12 +19,12 @@
     "screen saver",
     "react"
   ],
-  "author": "rlmurph1080",
+  "author": "yh54321",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rlmurph1080/react-animated-squares/issues"
+    "url": "https://github.com/yh54321/react-animated-squares/issues"
   },
-  "homepage": "https://github.com/rlmurph1080/react-animated-squares#readme",
+  "homepage": "https://github.com/yh54321/react-animated-squares#readme",
   "devDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
